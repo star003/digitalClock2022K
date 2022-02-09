@@ -1,4 +1,4 @@
-#Wed Feb 09 14:01:15 MSK 2022
+#Wed Feb 09 14:08:53 MSK 2022
 base.0=C\:\\Users\\Andrey\\AndroidStudioProjects\\digitalClock2022K\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

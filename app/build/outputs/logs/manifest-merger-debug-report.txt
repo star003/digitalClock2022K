@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-48:12
 MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\Andrey\.gradle\caches\transforms-3\3d1312f3ccf52e6aad5fb8278336e511\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\Andrey\.gradle\caches\transforms-3\c4000b1f58767d7e9b62b0600db1c210\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Andrey\.gradle\caches\transforms-3\38b5338972231d7bbabd3884fc9ea7dc\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
@@ -45,20 +45,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Andrey\.gradle\c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Andrey\.gradle\caches\transforms-3\6b2bca196f44edb806d00295fdcab713\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Andrey\.gradle\caches\transforms-3\43037c0b2dd43be656c119826bff6d23\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Andrey\.gradle\caches\transforms-3\29c7b199d4646ee497ba13091e7b830d\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-48:12
 	package
 		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:2:11-69
@@ -67,7 +67,7 @@ ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\
 	android:name
 		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:7:5-42:19
+ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:7:5-46:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Andrey\.gradle\caches\transforms-3\38b5338972231d7bbabd3884fc9ea7dc\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Andrey\.gradle\caches\transforms-3\38b5338972231d7bbabd3884fc9ea7dc\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\Andrey\.gradle\caches\transforms-3\45019ef3417b6728bfcdfc768cf637d7\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
@@ -85,63 +85,67 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Andrey\.gradle\cac
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\Andrey\.gradle\caches\transforms-3\fb3270031bd107031c21c5dc13d9e5ef\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
 		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:15:9-76
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:13:9-76
 	android:usesCleartextTraffic
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:9:9-44
-receiver#com.example.digitalclock2022k.dcWidget
-ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:16:9-26:20
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:14:9-44
+service#com.example.digitalclock2022k.WgService
+ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:15:9-18:47
+	android:enabled
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:17:13-35
 	android:exported
 		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:17:13-37
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:16:13-38
+receiver#com.example.digitalclock2022k.dcWidget
+ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:20:9-30:20
+	android:exported
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:21:13-37
 intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
-ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:19:13-21:29
+ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:23:13-25:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:20:17-84
+ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:24:17-84
 	android:name
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:20:25-81
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:24:25-81
 meta-data#android.appwidget.provider
-ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:23:13-25:58
+ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:27:13-29:58
 	android:resource
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:25:17-55
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:29:17-55
 	android:name
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:24:17-58
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:28:17-58
 activity#com.example.digitalclock2022k.FromGis
-ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:28:9-30:40
+ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:29:13-36
-activity#com.example.digitalclock2022k.MainActivity
-ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:31:9-39:20
-	android:exported
 		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:33:13-36
+activity#com.example.digitalclock2022k.MainActivity
+ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:35:9-43:20
+	android:exported
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:32:13-41
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:36:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:34:13-38:29
+ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:35:17-69
+ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:35:25-66
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:37:17-77
+ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:37:27-74
-service#com.example.digitalclock2022k.UpdateWidgetService
-ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:41:9-56
-	android:name
-		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:41:18-53
+		ADDED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml:41:27-74
 uses-sdk
 INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Andrey\AndroidStudioProjects\digitalClock2022K\app\src\main\AndroidManifest.xml
