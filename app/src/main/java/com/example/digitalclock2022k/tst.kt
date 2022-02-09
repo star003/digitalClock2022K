@@ -70,12 +70,12 @@ class tst {
                         + it.attr("значение"))
                 }
                 println("date = "+date.toString())
-                a.add(""+date)
+                a.add("" + date)
                 println(a.size)
 
             }
             catch (e: IOException) {
-                println("myData произошда хрень")
+                println("myData произошла хрень")
             }
             return a
         }//myData
