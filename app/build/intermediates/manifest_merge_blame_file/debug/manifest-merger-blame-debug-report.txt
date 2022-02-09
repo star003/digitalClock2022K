@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.digitalclock2022k"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:7:5-40:19
+14        android:allowBackup="true"
+14-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\Adm\.gradle\caches\transforms-3\fb3270031bd107031c21c5dc13d9e5ef\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:13:9-54
+20        android:supportsRtl="true"
+20-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:14:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+22-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:15:9-76
+23        android:usesCleartextTraffic="true" >
+23-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:9:9-44
+24        <receiver
+24-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:16:9-26:20
+25            android:name="com.example.digitalclock2022k.dcWidget"
+25-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:17:13-37
+26            android:exported="true" >
+26-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:18:13-36
+27            <intent-filter>
+27-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:19:13-21:29
+28                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+28-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:20:17-84
+28-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:20:25-81
+29            </intent-filter>
+30
+31            <meta-data
+31-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:23:13-25:58
+32                android:name="android.appwidget.provider"
+32-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:24:17-58
+33                android:resource="@xml/dc_widget_info" />
+33-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:25:17-55
+34        </receiver>
+35
+36        <activity
+36-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:28:9-30:40
+37            android:name="com.example.digitalclock2022k.FromGis"
+37-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:29:13-36
+38            android:exported="false" />
+38-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:30:13-37
+39        <activity
+39-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:31:9-39:20
+40            android:name="com.example.digitalclock2022k.MainActivity"
+40-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:32:13-41
+41            android:exported="true" >
+41-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:33:13-36
+42            <intent-filter>
+42-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:34:13-38:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:35:17-69
+43-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:35:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:37:17-77
+45-->C:\1-2017\androidProject\digitalClock2022K\app\src\main\AndroidManifest.xml:37:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Adm\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Adm\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+51            android:authorities="com.example.digitalclock2022k.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Adm\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Adm\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Adm\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Adm\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Adm\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Adm\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Adm\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Adm\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>

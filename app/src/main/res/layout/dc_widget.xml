@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.DigitalClock2022K.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen.AppWidgetContainer">
+
+    <LinearLayout
+        android:id="@+id/wgLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:longClickable="true">
+
+        <TextView
+            android:id="@+id/tDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/tRoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="!!!!123"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/tOutDoor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tPrs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tBatt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tGallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+</RelativeLayout>

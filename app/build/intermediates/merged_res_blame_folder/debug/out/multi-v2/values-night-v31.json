@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\1-2017\\androidProject\\digitalClock2022K\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v31\\values-night-v31.xml",
+            "map": [
+                {
+                    "source": "C:\\1-2017\\androidProject\\digitalClock2022K\\app\\src\\main\\res\\values-night-v31\\themes.xml",
+                    "from": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "166",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "317"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "206"
+                    }
+                }
+            ]
+        }
+    ]
+}

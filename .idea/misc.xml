@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/1-2017/androidProject/digitalClock2022K/app/src/main/res/drawable/my_shape.xml" value="0.23385416666666667" />
+        <entry key="..\:/1-2017/androidProject/digitalClock2022K/app/src/main/res/drawable/my_shape1.xml" value="0.22375" />
+        <entry key="..\:/1-2017/androidProject/digitalClock2022K/app/src/main/res/drawable/my_shapeWg.xml" value="0.21" />
+        <entry key="..\:/1-2017/androidProject/digitalClock2022K/app/src/main/res/drawable/my_shape_wg.xml" value="0.21" />
+        <entry key="..\:/1-2017/androidProject/digitalClock2022K/app/src/main/res/drawable/raz_ytro.xml" value="0.22375" />
+        <entry key="..\:/1-2017/androidProject/digitalClock2022K/app/src/main/res/drawable/shape.xml" value="0.22375" />
+        <entry key="..\:/1-2017/androidProject/digitalClock2022K/app/src/main/res/layout/activity_from_gis.xml" value="0.1328125" />
+        <entry key="..\:/1-2017/androidProject/digitalClock2022K/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/1-2017/androidProject/digitalClock2022K/app/src/main/res/layout/dc_widget.xml" value="0.45555555555555555" />
+        <entry key="..\:/1-2017/androidProject/digitalClock2022K/app/src/main/res/layout/simple_app_widget.xml" value="0.2989864864864865" />
+        <entry key="..\:/1-2017/androidProject/digitalClock2022K/app/src/main/res/menu/big_clock.xml" value="0.3265625" />
+        <entry key="..\:/1-2017/androidProject/digitalClock2022K/app/src/main/res/menu/from_gis.xml" value="0.3265625" />
+        <entry key="..\:/1-2017/androidProject/digitalClock2022K/app/src/main/res/xml/network_security_config.xml" value="0.1328125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

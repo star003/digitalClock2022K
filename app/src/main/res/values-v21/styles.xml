@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="Widget.DigitalClock2022K.AppWidget.Container" parent="android:Widget">
+        <item name="appWidgetPadding">16dp</item>
+
+        <item name="android:background">@drawable/app_widget_background</item>
+    </style>
+
+    <style name="Widget.DigitalClock2022K.AppWidget.InnerView" parent="android:Widget">
+        <item name="appWidgetPadding">16dp</item>
+        <item name="android:background">@drawable/app_widget_inner_view_background</item>
+    </style>
+</resources>

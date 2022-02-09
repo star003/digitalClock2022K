@@ -1,0 +1,44 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\1-2017\\androidProject\\digitalClock2022K\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v31\\values-v31.xml",
+            "map": [
+                {
+                    "source": "C:\\1-2017\\androidProject\\digitalClock2022K\\app\\src\\main\\res\\values-v31\\styles.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "211",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "362"
+                    }
+                },
+                {
+                    "source": "C:\\1-2017\\androidProject\\digitalClock2022K\\app\\src\\main\\res\\values-v31\\themes.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "250",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "401"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "206"
+                    }
+                }
+            ]
+        }
+    ]
+}
