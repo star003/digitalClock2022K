@@ -20,7 +20,7 @@ class WgService : Service() {
             for (appWidgetId in allWidgetIds) {
                 //3
                 //CoffeeLoggerWidget.updateAppWidget(this, appWidgetManager, appWidgetId)
-                //dcWidget.updateAppWidget(this, appWidgetManager, appWidgetId);
+                dcWidget.updateAppWidget(this, appWidgetManager, appWidgetId);
             }
         }
         return super.onStartCommand(intent, flags, startId)

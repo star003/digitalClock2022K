@@ -9,35 +9,36 @@ import android.app.PendingIntent
 import android.os.AsyncTask
 import android.util.Log
 import android.widget.TextView
+import com.example.digitalclock2022k.gisFromSite.this_marker
 import java.lang.NumberFormatException
 
 class dcWidget : AppWidgetProvider() {
 
     val this_marker = "wg_widget" //** зададим имя маркера для логов
-    private val ACTION_SIMPLEAPPWIDGET = "ACTION_BROADCASTWIDGETSAMPLE"
+    //private val ACTION_SIMPLEAPPWIDGET = "ACTION_BROADCASTWIDGETSAMPLE"
     lateinit var ct: Context
 
-    //companion object {
+    companion object {
 
-    internal fun updateAppWidget(
-        context: Context, appWidgetManager: AppWidgetManager,
-        appWidgetId: Int
-    ) {
-        Log.i(this_marker, "----welcome widget----")
-        val views = RemoteViews(context.packageName, R.layout.simple_app_widget)
-        val intent = Intent(context, dcWidget::class.java)
-        intent.action = ACTION_SIMPLEAPPWIDGET
-        val pendingIntent = PendingIntent.getBroadcast(
-            context, 0, intent,
-            PendingIntent.FLAG_UPDATE_CURRENT
-        )
-        views.setOnClickPendingIntent(R.id.tvWidget, pendingIntent)
-        //views.setOnClickPendingIntent(R.id.tvWidgetRoom, pendingIntent)
-        //views.setOnClickPendingIntent(R.id.tvWidgetPRS, pendingIntent)
-        appWidgetManager.updateAppWidget(appWidgetId, views)
+        fun updateAppWidget(
+            context: Context, appWidgetManager: AppWidgetManager,
+            appWidgetId: Int
+        ) {
+            Log.i(this_marker, "----welcome widget----")
+            val views = RemoteViews(context.packageName, R.layout.simple_app_widget)
+            val intent = Intent(context, dcWidget::class.java)
+            intent.action = "ACTION_BROADCASTWIDGETSAMPLE"
+            val pendingIntent = PendingIntent.getBroadcast(
+                context, 0, intent,
+                PendingIntent.FLAG_UPDATE_CURRENT
+            )
+            views.setOnClickPendingIntent(R.id.tvWidget, pendingIntent)
+            //views.setOnClickPendingIntent(R.id.tvWidgetRoom, pendingIntent)
+            //views.setOnClickPendingIntent(R.id.tvWidgetPRS, pendingIntent)
+            appWidgetManager.updateAppWidget(appWidgetId, views)
 
+        }
     }
-    //}
 
     override fun onUpdate(
         context: Context,
