@@ -46,6 +46,8 @@
             </intent-filter>
         </activity>
 
+        <service android:name="com.example.digitalclock2022k.UpdateWidgetService" />
+
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.digitalclock2022k.androidx-startup"

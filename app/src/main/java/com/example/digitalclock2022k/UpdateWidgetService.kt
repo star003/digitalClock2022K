@@ -10,10 +10,10 @@ class UpdateWidgetService: Service() {
         return null
     }
 
-    override fun onStartCommand(intent: Intent?, flags: Int, startId: Int) {
+    //override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         // generates random number
+        //return 1
 
-
-    }
+   // }
 
 }

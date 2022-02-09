@@ -34,6 +34,8 @@ class dcWidget : AppWidgetProvider() {
         //views.setOnClickPendingIntent(R.id.tvWidgetRoom, pendingIntent)
         //views.setOnClickPendingIntent(R.id.tvWidgetPRS, pendingIntent)
         appWidgetManager.updateAppWidget(appWidgetId, views)
+        //val m = goMyData();
+        //m.execute()
 
     }
 
@@ -43,7 +45,7 @@ class dcWidget : AppWidgetProvider() {
         appWidgetIds: IntArray
     ) {
         // There may be multiple widgets active, so update all of them
-        Log.i(this_marker, "----widget onUpdate----")
+        Log.i(this_marker, "widget: onUpdate")
         for (appWidgetId in appWidgetIds) {
             updateAppWidget(context, appWidgetManager, appWidgetId)
         }
@@ -51,10 +53,10 @@ class dcWidget : AppWidgetProvider() {
 
     override fun onReceive(context: Context, intent: Intent) {
         super.onReceive(context, intent)
-        Log.i(this_marker, "----widget onReceive----")
-        if (ACTION_SIMPLEAPPWIDGET.equals(intent.action)) {
+        Log.i(this_marker, "widget: onReceive")
+        //if (ACTION_SIMPLEAPPWIDGET.equals(intent.action)) {
             ct = context
-            Log.i(this_marker, "----widget ACTION_SIMPLEAPPWIDGET----")
+            Log.i(this_marker, "widget: onReceive -> ACTION_SIMPLEAPPWIDGET")
             val views = RemoteViews(context.packageName, R.layout.simple_app_widget)
             views.setTextViewText(R.id.tvWidget, "Wait...")
             views.setTextViewText(R.id.tvWidgetPRS, "Wait...")
@@ -65,7 +67,7 @@ class dcWidget : AppWidgetProvider() {
             val appWidgetManager = AppWidgetManager.getInstance(ct)
             //***моожет после выполнения повторить ?
             appWidgetManager.updateAppWidget(appWidget, views)
-        }
+        //}
     }
 
     inner class goMyData : AsyncTask<Void, Void, java.lang.String>()  {
@@ -101,7 +103,7 @@ class dcWidget : AppWidgetProvider() {
                 val appWidgetManager = AppWidgetManager.getInstance(ct)
                 //***моожет после выполнения повторить ?
                 appWidgetManager.updateAppWidget(appWidget, views)
-                Log.i(this_marker, "widget onPostExecute: " + room+" , "+prs+ " , "+data)
+                Log.i(this_marker, "widget ->goMyData -> onPostExecute: " + room+" , "+prs+ " , "+data)
 
             } catch (e3: NumberFormatException) {
                 Log.e(
