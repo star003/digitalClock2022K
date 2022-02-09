@@ -19,7 +19,6 @@ class WgService : Service() {
             //2
             for (appWidgetId in allWidgetIds) {
                 //3
-                //CoffeeLoggerWidget.updateAppWidget(this, appWidgetManager, appWidgetId)
                 dcWidget.updateAppWidget(this, appWidgetManager, appWidgetId);
             }
         }

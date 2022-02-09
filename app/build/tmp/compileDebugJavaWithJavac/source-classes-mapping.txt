@@ -1,12 +1,12 @@
+com/example/digitalclock2022k/BuildConfig.java
+ com.example.digitalclock2022k.BuildConfig
+com/example/digitalclock2022k/gisFromSite.java
+ com.example.digitalclock2022k.gisFromSite
 com/example/digitalclock2022k/databinding/SimpleAppWidgetBinding.java
  com.example.digitalclock2022k.databinding.SimpleAppWidgetBinding
 com/example/digitalclock2022k/databinding/ActivityMainBinding.java
  com.example.digitalclock2022k.databinding.ActivityMainBinding
-com/example/digitalclock2022k/gisFromSite.java
- com.example.digitalclock2022k.gisFromSite
 com/example/digitalclock2022k/databinding/ActivityFromGisBinding.java
  com.example.digitalclock2022k.databinding.ActivityFromGisBinding
 com/example/digitalclock2022k/databinding/DcWidgetBinding.java
  com.example.digitalclock2022k.databinding.DcWidgetBinding
-com/example/digitalclock2022k/BuildConfig.java
- com.example.digitalclock2022k.BuildConfig

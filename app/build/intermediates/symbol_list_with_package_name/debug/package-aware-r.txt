@@ -2505,6 +2505,8 @@ id trend2
 id trend3
 id triangle
 id tvWidget
+id tvWidgetDom
+id tvWidgetObr
 id tvWidgetPRS
 id tvWidgetRoom
 id unchecked

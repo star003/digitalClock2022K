@@ -62,6 +62,8 @@ class dcWidget : AppWidgetProvider() {
         views.setTextViewText(R.id.tvWidget, "Wait...")
         views.setTextViewText(R.id.tvWidgetPRS, "Wait...")
         views.setTextViewText(R.id.tvWidgetRoom, "Wait...")
+        views.setTextViewText(R.id.tvWidgetObr, "Wait...")
+        views.setTextViewText(R.id.tvWidgetDom, "Wait...")
         val m = goMyData();
         m.execute()
         val appWidget = ComponentName(ct, dcWidget::class.java)
@@ -76,6 +78,8 @@ class dcWidget : AppWidgetProvider() {
         var room = ""
         var prs = ""
         var data = ""
+        var obr = ""
+        var dom = ""
 
         override fun onPreExecute() {
             super.onPreExecute()
@@ -85,9 +89,11 @@ class dcWidget : AppWidgetProvider() {
         override fun doInBackground(vararg params: Void?): java.lang.String? {
 
             val a = tst.myData()
-            data = if (a.size > 0) a[5] else "-"
-            prs = if (a.size > 0) a[2] else "-"
-            room = if (a.size > 0) a[1] else "-"
+            data = if (a.size > 7) a[7] else "-"
+            prs = if (a.size > 3) a[3] else "-"
+            room = if (a.size > 2) a[2] else "-"
+            obr = if (a.size > 4) a[4] else "-"
+            dom = if (a.size > 0) a[0] else "-"
             return null
 
         } //protected Void doInBackground(Void... params)
@@ -99,11 +105,15 @@ class dcWidget : AppWidgetProvider() {
                 views.setTextViewText(R.id.tvWidget, data)
                 views.setTextViewText(R.id.tvWidgetPRS, prs)
                 views.setTextViewText(R.id.tvWidgetRoom, room)
+
+                views.setTextViewText(R.id.tvWidgetObr, obr)
+                views.setTextViewText(R.id.tvWidgetDom, dom)
                 val appWidget = ComponentName(ct, dcWidget::class.java)
                 val appWidgetManager = AppWidgetManager.getInstance(ct)
                 //***моожет после выполнения повторить ?
                 appWidgetManager.updateAppWidget(appWidget, views)
                 Log.i(this_marker, "widget ->goMyData -> onPostExecute: " + room+" , "+prs+ " , "+data)
+                Log.i(this_marker, "widget ->goMyData -> onPostExecute: " + obr+" , "+dom+ " , "+data)
 
             } catch (e3: NumberFormatException) {
                 Log.e(

@@ -2504,6 +2504,8 @@ int id trend2 0x7f09024e
 int id trend3 0x7f09024f
 int id triangle 0x7f090250
 int id tvWidget 0x7f090251
+int id tvWidgetDom 0x7f09026d
+int id tvWidgetObr 0x7f09026e
 int id tvWidgetPRS 0x7f090252
 int id tvWidgetRoom 0x7f090253
 int id unchecked 0x7f090254

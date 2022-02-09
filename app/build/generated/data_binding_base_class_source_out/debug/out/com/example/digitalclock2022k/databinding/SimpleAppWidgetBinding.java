@@ -23,15 +23,24 @@ public final class SimpleAppWidgetBinding implements ViewBinding {
   public final TextView tvWidget;
 
   @NonNull
+  public final TextView tvWidgetDom;
+
+  @NonNull
+  public final TextView tvWidgetObr;
+
+  @NonNull
   public final TextView tvWidgetPRS;
 
   @NonNull
   public final TextView tvWidgetRoom;
 
   private SimpleAppWidgetBinding(@NonNull LinearLayout rootView, @NonNull TextView tvWidget,
-      @NonNull TextView tvWidgetPRS, @NonNull TextView tvWidgetRoom) {
+      @NonNull TextView tvWidgetDom, @NonNull TextView tvWidgetObr, @NonNull TextView tvWidgetPRS,
+      @NonNull TextView tvWidgetRoom) {
     this.rootView = rootView;
     this.tvWidget = tvWidget;
+    this.tvWidgetDom = tvWidgetDom;
+    this.tvWidgetObr = tvWidgetObr;
     this.tvWidgetPRS = tvWidgetPRS;
     this.tvWidgetRoom = tvWidgetRoom;
   }
@@ -69,6 +78,18 @@ public final class SimpleAppWidgetBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvWidgetDom;
+      TextView tvWidgetDom = ViewBindings.findChildViewById(rootView, id);
+      if (tvWidgetDom == null) {
+        break missingId;
+      }
+
+      id = R.id.tvWidgetObr;
+      TextView tvWidgetObr = ViewBindings.findChildViewById(rootView, id);
+      if (tvWidgetObr == null) {
+        break missingId;
+      }
+
       id = R.id.tvWidgetPRS;
       TextView tvWidgetPRS = ViewBindings.findChildViewById(rootView, id);
       if (tvWidgetPRS == null) {
@@ -81,8 +102,8 @@ public final class SimpleAppWidgetBinding implements ViewBinding {
         break missingId;
       }
 
-      return new SimpleAppWidgetBinding((LinearLayout) rootView, tvWidget, tvWidgetPRS,
-          tvWidgetRoom);
+      return new SimpleAppWidgetBinding((LinearLayout) rootView, tvWidget, tvWidgetDom, tvWidgetObr,
+          tvWidgetPRS, tvWidgetRoom);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

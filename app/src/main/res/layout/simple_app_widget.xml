@@ -50,5 +50,34 @@
         android:textSize="14sp"
         android:textStyle="bold|italic"
         tools:ignore="TouchTargetSizeCheck" />
+    <TextView
+        android:id="@+id/tvWidgetObr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/widget_margin"
+        android:background="#0377BE"
+        android:clickable="true"
+        android:contentDescription="@string/appwidget_text"
+        android:gravity="left"
+        android:text="@string/wgNoData"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        tools:ignore="TouchTargetSizeCheck" />
+    <TextView
+        android:id="@+id/tvWidgetDom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/widget_margin"
+        android:background="#0377BE"
+        android:clickable="true"
+        android:contentDescription="@string/appwidget_text"
+        android:gravity="left"
+        android:text="@string/wgNoData"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        tools:ignore="TouchTargetSizeCheck" />
+
 
 </LinearLayout>
