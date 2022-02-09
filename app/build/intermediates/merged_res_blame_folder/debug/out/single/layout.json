@@ -1,18 +1,18 @@
 [
     {
-        "merged": "C:\\1-2017\\androidProject\\digitalClock2022K\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\1-2017\\androidProject\\digitalClock2022K\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Andrey\\AndroidStudioProjects\\digitalClock2022K\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_from_gis.xml",
+        "source": "C:\\Users\\Andrey\\AndroidStudioProjects\\digitalClock2022K\\app\\src\\main\\res\\layout\\activity_from_gis.xml"
     },
     {
-        "merged": "C:\\1-2017\\androidProject\\digitalClock2022K\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_from_gis.xml",
-        "source": "C:\\1-2017\\androidProject\\digitalClock2022K\\app\\src\\main\\res\\layout\\activity_from_gis.xml"
+        "merged": "C:\\Users\\Andrey\\AndroidStudioProjects\\digitalClock2022K\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\simple_app_widget.xml",
+        "source": "C:\\Users\\Andrey\\AndroidStudioProjects\\digitalClock2022K\\app\\src\\main\\res\\layout\\simple_app_widget.xml"
     },
     {
-        "merged": "C:\\1-2017\\androidProject\\digitalClock2022K\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dc_widget.xml",
-        "source": "C:\\1-2017\\androidProject\\digitalClock2022K\\app\\src\\main\\res\\layout\\dc_widget.xml"
+        "merged": "C:\\Users\\Andrey\\AndroidStudioProjects\\digitalClock2022K\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Andrey\\AndroidStudioProjects\\digitalClock2022K\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\1-2017\\androidProject\\digitalClock2022K\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\simple_app_widget.xml",
-        "source": "C:\\1-2017\\androidProject\\digitalClock2022K\\app\\src\\main\\res\\layout\\simple_app_widget.xml"
+        "merged": "C:\\Users\\Andrey\\AndroidStudioProjects\\digitalClock2022K\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dc_widget.xml",
+        "source": "C:\\Users\\Andrey\\AndroidStudioProjects\\digitalClock2022K\\app\\src\\main\\res\\layout\\dc_widget.xml"
     }
 ]

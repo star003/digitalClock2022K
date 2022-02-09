@@ -1,13 +1,19 @@
 package com.example.digitalclock2022k
+import android.app.Service
 import android.content.Intent
-import android.appwidget.AppWidgetManager
-import android.content.Context
+import android.os.IBinder
 
-class UpdateWidgetService {
+class UpdateWidgetService: Service() {
 
-    fun onStart(intent: Intent, startId: Int) {
+    //@Nullable
+    override fun onBind(intent: Intent?): IBinder? {
+        return null
+    }
+
+    override fun onStartCommand(intent: Intent?, flags: Int, startId: Int) {
+        // generates random number
 
 
-    } //public  void onStart(Intent intent, int startId)
+    }
 
 }

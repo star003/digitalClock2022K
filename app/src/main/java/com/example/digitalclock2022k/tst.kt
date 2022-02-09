@@ -291,9 +291,6 @@ class tst {
             //println(dateMinusDay())
             myData()
 
-            /*
-            test change for git hub
-             */
         }//main
     }
 
