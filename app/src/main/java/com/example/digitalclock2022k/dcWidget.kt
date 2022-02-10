@@ -15,7 +15,7 @@ import java.lang.NumberFormatException
 class dcWidget : AppWidgetProvider() {
 
     val this_marker = "wg_widget" //** зададим имя маркера для логов
-    //private val ACTION_SIMPLEAPPWIDGET = "ACTION_BROADCASTWIDGETSAMPLE"
+    private val ACTION_SIMPLEAPPWIDGET = "ACTION_BROADCASTWIDGETSAMPLE"
     lateinit var ct: Context
 
     companion object {
@@ -53,24 +53,44 @@ class dcWidget : AppWidgetProvider() {
     }
 
     override fun onReceive(context: Context, intent: Intent) {
+
         super.onReceive(context, intent)
         Log.i(this_marker, "widget: onReceive")
-        //if (ACTION_SIMPLEAPPWIDGET.equals(intent.action)) {
-        ct = context
-        Log.i(this_marker, "widget: onReceive -> ACTION_SIMPLEAPPWIDGET")
         val views = RemoteViews(context.packageName, R.layout.simple_app_widget)
-        views.setTextViewText(R.id.tvWidget, "Wait...")
-        views.setTextViewText(R.id.tvWidgetPRS, "Wait...")
-        views.setTextViewText(R.id.tvWidgetRoom, "Wait...")
-        views.setTextViewText(R.id.tvWidgetObr, "Wait...")
-        views.setTextViewText(R.id.tvWidgetDom, "Wait...")
-        val m = goMyData();
-        m.execute()
-        val appWidget = ComponentName(ct, dcWidget::class.java)
-        val appWidgetManager = AppWidgetManager.getInstance(ct)
-        //***моожет после выполнения повторить ?
-        appWidgetManager.updateAppWidget(appWidget, views)
-        //}
+        ct = context
+
+        if (ACTION_SIMPLEAPPWIDGET.equals(intent.action) or ACTION_BROADCASTWIDGETSAMPLE.equals(intent.action)) {
+            Log.i(this_marker, "widget: onReceive -> ACTION_SIMPLEAPPWIDGET = "+ACTION_SIMPLEAPPWIDGET)
+            views.setTextViewText(R.id.tvWidget, "Wait...")
+            views.setTextViewText(R.id.tvWidgetPRS, "Wait...")
+            views.setTextViewText(R.id.tvWidgetRoom, "Wait...")
+            views.setTextViewText(R.id.tvWidgetObr, "Wait...")
+            views.setTextViewText(R.id.tvWidgetDom, "Wait...")
+            val m = goMyData();
+            m.execute()
+            val appWidget = ComponentName(ct, dcWidget::class.java)
+            val appWidgetManager = AppWidgetManager.getInstance(ct)
+            //***моожет после выполнения повторить ?
+            appWidgetManager.updateAppWidget(appWidget, views)
+        }
+        else {
+            Log.i(this_marker, "widget: onReceive -> ELSE ACTION_SIMPLEAPPWIDGET " +ACTION_SIMPLEAPPWIDGET)
+            /*
+            views.setTextViewText(R.id.tvWidget, "Wait...")
+            views.setTextViewText(R.id.tvWidgetPRS, "Wait...")
+            views.setTextViewText(R.id.tvWidgetRoom, "Wait...")
+            views.setTextViewText(R.id.tvWidgetObr, "Wait...")
+            views.setTextViewText(R.id.tvWidgetDom, "Wait...")
+            val m = goMyData();
+            m.execute()
+            val appWidget = ComponentName(ct, dcWidget::class.java)
+            val appWidgetManager = AppWidgetManager.getInstance(ct)
+            //***моожет после выполнения повторить ?
+            appWidgetManager.updateAppWidget(appWidget, views)
+            */
+             */
+        }
+
     }
 
     inner class goMyData : AsyncTask<Void, Void, java.lang.String>()  {

@@ -19,6 +19,7 @@ class WgService : Service() {
             //2
             for (appWidgetId in allWidgetIds) {
                 //3
+                intent.action = "ACTION_BROADCASTWIDGETSAMPLE"
                 dcWidget.updateAppWidget(this, appWidgetManager, appWidgetId);
             }
         }

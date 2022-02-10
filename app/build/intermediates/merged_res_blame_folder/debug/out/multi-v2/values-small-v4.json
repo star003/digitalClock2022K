@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Andrey\\AndroidStudioProjects\\digitalClock2022K\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "C:\\1-2017\\androidProject\\digitalClock2022K\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Andrey\\.gradle\\caches\\transforms-3\\38b5338972231d7bbabd3884fc9ea7dc\\transformed\\material-1.4.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Adm\\.gradle\\caches\\transforms-3\\38b5338972231d7bbabd3884fc9ea7dc\\transformed\\material-1.4.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
